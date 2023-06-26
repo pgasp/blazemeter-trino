@@ -1,0 +1,8 @@
+execution:
+- concurrency: 100
+  ramp-up: 30s
+  hold-for: 10m
+  scenario: s1
+scenarios:
+  s1:
+    script: jmeter/Primes_view.jmx
